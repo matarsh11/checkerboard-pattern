@@ -5,21 +5,20 @@ Lab#: Lab1
 Lab dessricptio: checkerboard pattern made of starsand blanks
 */
 #include <iostream>
-int main()
-{
-	std::cout << "  *   *   *   *   *\n";
+using namespace std;
+//
+const std::string N = "  *   *   *   *";
+const std::string S = "*   *   *   * ";
 
-	std::cout << "*   *   *   *   *\n";
+int main() {
+	// function call
+	cout << N << endl;
+	cout << S << endl;
+	cout << N << endl;
+	cout << S << endl;
+	cout << N << endl;
+	cout << S << endl;
+	cout << N << endl;
+	cout << S << endl;
 
-	std::cout << "  *   *   *   *   *\n";
-
-	std::cout << "*   *   *   *   *\n";
-
-	std::cout << "  *   *   *   *   *\n";
-
-	std::cout << "*   *   *   *   *\n";
-
-	std::cout << "  *   *   *   *   *\n";
-
-	std::cout << "*   *   *   *   *\n";
 }
